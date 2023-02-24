@@ -1,39 +1,17 @@
 .app {
   text-align: center;
+  background-color: #354f52;
 }
 
-ul {
-  list-style: none;
-  margin: 10px 0;
-  padding: 0;
+#header {
+  background-color: #2f3e46;
+} 
+ h1 {
+  color: #cad2c5;
+ }
+
+#portfolio {
+  background-color: #2f3e46;
 }
 
-.student-list {
-  margin: 0 auto;
-  max-width: 1200px;
-}
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th {
-  background: lightgreen;
-  padding: 10px;
-}
-
-th,
-td {
-  border: 1px solid grey;
-}
-
-.add-student {
-  margin: 20px 0;
-}
-
-.add-student button,
-.add-student input,
-.add-student select {
-  height: 40px;
-}

@@ -1,18 +1,23 @@
 
 import './app.css';
 import Header from './components/Header';
-import Projects from './components/Projects';
+import ProjectList from './components/ProjectList';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
+import { useState } from 'react';
 
 function App() {
   
+  const[myProjects] = useState([
+    {id:1, name: 'Project 1'},
+    {id: 2, name: 'Project 2'}
+  ]);
 
   return (
     <div className="app">
       <Header/>
       <div id='portfolio'>
-      <Projects/>
+      <h2>Projects</h2>
+      <ProjectList classProjects={myProjects}/>
       </div>
       <Footer/>
       

@@ -1,9 +1,9 @@
-import React, {useState} from "react";
 
-function Projects() {
-    return (
-        <div><h2>Projects</h2></div>
-    );
+
+function Projects({classProjects}) {
+    return [(
+        <div key={classProjects.id}>{classProjects.name}</div>
+    )];
 }
 
 export default Projects;
